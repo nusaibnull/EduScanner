@@ -22,9 +22,9 @@
 ## 📂 Project Structure
 
 ```
-edu-in-scanner/
+EduScanner/
 │
-├── scanner.py           # মূল স্ক্রিপ্ট
+├── edu_scanner.py       # মূল স্ক্রিপ্ট
 ├── edu_site_found.txt   # লাইভ ডোমেইন লিস্ট (অটো জেনারেটেড)
 └── README.md            # ডকুমেন্টেশন
 ```
@@ -35,8 +35,8 @@ edu-in-scanner/
 
 ### **১. রিপোজিটরি ক্লোন করো**
 ```bash
-git clone https://github.com/username/edu-in-scanner.git
-cd edu-in-scanner
+git clone https://github.com/nusaibnull/EduScanner.git
+cd EduScanner
 ```
 
 ### **২. ডিপেন্ডেন্সি ইন্সটল করো**
@@ -66,7 +66,7 @@ python3 scanner.py
 ### **অ্যাডভান্সড ইউজেজ**
 
 ```bash
-python3 scanner.py --count 500 --length 4 --concurrency 200 --timeout 8 --target 2000 --output live_edu_sites.txt
+python3 edu_scanner.py --count 500 --length 4 --concurrency 200 --timeout 8 --target 2000 --output live_edu_sites.txt
 ```
 
 #### **অপশনগুলোর ব্যাখ্যা:**
